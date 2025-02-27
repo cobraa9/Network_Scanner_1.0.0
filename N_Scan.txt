@@ -1,0 +1,24 @@
+How a network can be scanned?
+
+1. Create a ARP packet with the target IP address,
+2. Create a Ethernet Frame with Target MAC address,(the ARP packet will be sent to all devices in the local network.
+3. Combine the ARP & Ethernet,
+4. Send the packets and receive the responses,
+5. Extract IP & MAC addresses from the responses,
+6. Return the list of clients,
+7. Print the scan result.
+
+Execution :
+Input will be an IP address and output will be the scanned report for all networks under that IP address.
+
+Key difference:
+IP - it's a numerical lebel assign to each devices connected to a computer network that uses some protocol.
+MAC - it's a unique identifier assign to the network interface of a device, By the Manufacturer.
+
+What is ARP?
+Address Resolution Protocol, it's used to map a an IP address to a MAC address.
+
+Features:
+This project discovers devices on a network, 
+It captures the network packets,
+Saves the captured packets to a file.
