@@ -12,7 +12,7 @@ The **Network Scanner Tool** is a Python-based cybersecurity tool designed to sc
 - **Vulnerability Detection:** Identify known vulnerabilities based on detected services.
 - **Reporting:** Generate a summary report of the scanned network.
 
-## Technologies and Libraries Used 🖥️📚⚙️
+## Technologies and Libraries Used 🖥️📚
 
 - **Python:** Core programming language.
 - **Scapy:** For network packet manipulation and analysis.
