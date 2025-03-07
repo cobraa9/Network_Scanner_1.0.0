@@ -81,8 +81,10 @@ python scanner.py --target 192.168.1.0/24
 This tool is intended for **educational and ethical** purposes only. Unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. 🚨❌⚖️
 
 ## Contribution 🔧🤝
-It was my first project as a complete beginner, and i know that this tiny project needs alot of improvemnets.
+It was my first project as a complete beginner in penetration Testing, and i know that this tiny project needs a lot of improvemnets.
 So, contributions are welcome! Feel free to fork the repository and submit pull requests. 📝
+
+
 
 ## Author ✍️🌍
 
