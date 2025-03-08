@@ -2,7 +2,7 @@
 
 ## Overview 🛡️🔎
 
-The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for ethical hackers, cybersecurity researchers, and network administrators who want to analyze and secure their networks. 🖥️🔌
+The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for network pen testers, cybersecurity researchers, and network administrators who want to analyze and secure their networks. 🖥️🔌
 
 ## Features 🎯
 
@@ -14,25 +14,26 @@ The **Network Scanner Tool** is a Python-based cybersecurity tool designed to sc
 
 ## Technologies and Libraries Used 🖥️📚
 
-- **Python:** Core programming language.
-- **Scapy:** For network packet manipulation and analysis.
+- **Python:** Core programming language. LINK --> https://www.python.org/downloads/
+- **Scapy:** Scapy is used by the scanner to give users strong capabilities for packet creation, sending, sniffing, and dissecting, giving them a thorough understanding of network traffic and device activity. For further information visit --> https://github.com/secdev/scapy .
 - **socket:** Built-in Python module for network communications.
-- **nmap (python-nmap):** To enhance port scanning and service detection.
+- **nmap (python-nmap):** To enhance port scanning and service detection. LINK --> https://nmap.org/download.html
 - **argparse:** For handling command-line arguments.
 - **subprocess:** To execute system commands for additional functionalities.
-- **json/csv:** For structured reporting.
+- **pcap/json:** For structured reporting.
+- **pcapviewer** To analyze the network PCAP/PCAPNG (Packet Capture) files. LINK --> https://marketplace.visualstudio.com/items?itemName=sankooc.pcapviewer
 
 ## Installation ⚙️📥📌
 
 ### Prerequisites ✅📦
 
-Ensure you have Python 3.x installed on your system. 📂⚙️
+Ensure you have Python 3.x (any updated version) installed on your system. 📂⚙️
 
 ### Clone the Repository 🖥️🔗
 
 ```bash
-git clone https://github.com/yourusername/network-scanner-tool.git
-cd network-scanner-tool
+git clone https://github.com/cobraa9/Network_Scanner_Tool.git
+cd Network_Scanner_Tool
 ```
 
 ### Install Required Libraries 📦🛠️
@@ -46,7 +47,7 @@ pip install scapy python-nmap argparse
 Run the tool with the following command:
 
 ```bash
-python scanner.py --target 192.168.1.0/24
+python scan.py --target 192.168.1.0/24
 ```
 
 ### Command-Line Arguments 📜🖥️
@@ -61,11 +62,11 @@ python scanner.py --target 192.168.1.0/24
 
 - Scan a specific IP:
   ```bash
-  python scanner.py --target 192.168.1.100
+  python scan.py --target 192.168.1.100
   ```
-- Scan a subnet and save results to JSON:
+- Scan a subnet and save results to PCAP/JSON:
   ```bash
-  python scanner.py --target 192.168.1.0/24 --output results.pcap
+  python scan.py --target 192.168.1.0/24 --output results.pcap
   ```
 
 ## How It Works ⚙️🛠️
