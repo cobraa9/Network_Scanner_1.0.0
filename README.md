@@ -55,7 +55,7 @@ python scanner.py --target 192.168.1.0/24
 | ---------- | -------------------------------------------------- |
 | `--target` | The target IP address or subnet to scan.           |
 | `--ports`  | Specific ports to scan (default: common ports).    |
-| `--output` | Save the scan results to a file (JSON/CSV format). |
+| `--output` | Save the scan results to a file (PCAP/JSON/CSV format). |
 
 ### Example Commands 📡🖥️
 
@@ -65,7 +65,7 @@ python scanner.py --target 192.168.1.0/24
   ```
 - Scan a subnet and save results to JSON:
   ```bash
-  python scanner.py --target 192.168.1.0/24 --output results.json
+  python scanner.py --target 192.168.1.0/24 --output results.pcap
   ```
 
 ## How It Works ⚙️🛠️
