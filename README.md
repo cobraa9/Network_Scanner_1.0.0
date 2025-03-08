@@ -1,4 +1,4 @@
-# Network Scanner Tool (Nmap)🔍💻
+# Network Scanner Tool (Nmap)💻
 
 ## Overview 🛡️🔎
 
@@ -12,7 +12,7 @@ The **Network Scanner Tool** is a Python-based cybersecurity tool designed to sc
 - **Vulnerability Detection:** Identify known vulnerabilities based on detected services.
 - **Reporting:** Generate a summary report of the scanned network.
 
-## Technologies and Libraries Used 🖥️📚
+## Technologies and Libraries Used 📚
 
 - **Python:** Core programming language. LINK --> https://www.python.org/downloads/
 - **Scapy:** Scapy is used by the scanner to give users strong capabilities for packet creation, sending, sniffing, and dissecting, giving them a thorough understanding of network traffic and device activity. For further information visit --> https://github.com/secdev/scapy .
@@ -42,7 +42,7 @@ cd Network_Scanner_Tool
 pip install scapy python-nmap argparse
 ```
 
-## Usage 🔍🖥️
+## Usage 🖥️
 
 Run the tool with the following command:
 
@@ -50,7 +50,7 @@ Run the tool with the following command:
 python scan.py --target 192.168.1.0/24
 ```
 
-### Command-Line Arguments 📜🖥️
+### Command-Line Arguments 🖥️
 
 | Argument   | Description                                        |
 | ---------- | -------------------------------------------------- |
@@ -73,13 +73,13 @@ python scan.py --target 192.168.1.0/24
 
 1. **Device Discovery:** Uses ARP requests to detect active devices on the network. 🖥️📡🔍
 2. **Port Scanning:** Uses TCP SYN scans to identify open ports. 🔌🔎
-3. **Service Detection:** Uses Nmap integration to identify running services. 🛠️🔍📡
-4. **Vulnerability Detection:** Cross-references detected services with a known vulnerability database. 🔥📊
+3. **Service Detection:** Uses Nmap integration to identify running services. 🔍📡
+4. **Vulnerability Detection:** Cross-references detected services with a known vulnerability database. 🔥
 5. **Report Generation:** Outputs findings in a structured format. 📜📂
 
-## Disclaimer ⚠️📜
+## Disclaimer ⚠️
 
-This tool is intended for **educational and ethical** purposes only. Unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. 🚨❌⚖️
+This tool is intended for **educational and ethical** purposes only. While port scanning itself isn't always illegal,but unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. 🚨❌⚖️
 
 ## Contribution 🔧🤝
 It was my first project as a complete beginner in penetration Testing, and i know that this tiny project needs a lot of improvemnets.
@@ -91,5 +91,5 @@ So, contributions are welcome! Feel free to fork the repository and submit pull 
 
 Anirban
 
-For Suggestions & inquiries, feel free to contact me via GitHub. 📩💻
+For Suggestions & inquiries, feel free to contact me via GitHub. 📩
 
