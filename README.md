@@ -27,7 +27,11 @@ The **Network Scanner Tool** is a Python-based cybersecurity tool designed to sc
 
 ### Prerequisites ✅📦
 
-Ensure you have Python 3.x (any updated version) installed on your system. 📂⚙️
+Make sure that you have Python 3.x.y (any updated version) installed on your system. 📂⚙️
+
+```bash
+py --version
+```
 
 ### Clone the Repository 🖥️🔗
 
@@ -44,10 +48,11 @@ pip install scapy python-nmap argparse
 
 ## Usage 🖥️
 
-Run the tool with the following command:
+Run the tool with the following command and enter your target ip for scan:
 
 ```bash
-python scan.py --target 192.168.1.0/24
+python scan.py 
+-- target 192.168.1.0/24 
 ```
 
 ### Command-Line Arguments 🖥️
@@ -56,7 +61,7 @@ python scan.py --target 192.168.1.0/24
 | ---------- | -------------------------------------------------- |
 | `--target` | The target IP address or subnet to scan.           |
 | `--ports`  | Specific ports to scan (default: common ports).    |
-| `--output` | Save the scan results to a file (PCAP/JSON/CSV format). |
+| `--output` | Save the scan results to a file (PCAP/JSON format). |
 
 ### Example Commands 📡🖥️
 
@@ -66,7 +71,7 @@ python scan.py --target 192.168.1.0/24
   ```
 - Scan a subnet and save results to PCAP/JSON:
   ```bash
-  python scan.py --target 192.168.1.0/24 --output results.pcap
+  --output result1.pcap
   ```
 
 ## How It Works ⚙️🛠️
