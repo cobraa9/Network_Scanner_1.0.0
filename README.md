@@ -1,4 +1,4 @@
-# Network Scanner Tool (1.0)💻
+# Network Scanner Tool (1.0.0)💻
 
 ## Overview 🛡️
 
