@@ -1,8 +1,8 @@
-# Network Scanner Tool (Nmap)💻
+# Network Scanner Tool (1.0)💻
 
-## Overview 🛡️🔎
+## Overview 🛡️
 
-The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for network pen testers, cybersecurity researchers, and network administrators who want to analyze and secure their networks. 🖥️🔌
+The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for cybersecurity researchers, and network security students who want to analyze their networks. 🖥️🔌
 
 ## Features 🎯
 
@@ -82,7 +82,7 @@ python scan.py --target 192.168.1.0/24
 This tool is intended for **educational and ethical** purposes only. While port scanning itself isn't always illegal,but unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. 🚨❌⚖️
 
 ## Contribution 🔧🤝
-It was my first project as a complete beginner in penetration Testing, and i know that this tiny project needs a lot of improvemnets.
+This is my first project as a complete beginner in penetration Testing, and i know that this tiny project needs a lot of improvemnets.
 So, contributions are welcome! Feel free to fork the repository and submit pull requests. 📝
 
 
