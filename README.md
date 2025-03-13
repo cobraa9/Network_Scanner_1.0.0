@@ -2,14 +2,13 @@
 
 ## Overview 🛡️
 
-The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for cybersecurity researchers, and network security students who want to analyze their networks. 🖥️🔌
+The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for cybersecurity researchers, and network security students who want to analyze their networks. 
 
-## Features 🎯
+# Features 🎯
 
 - **Device Discovery:** Identify all devices connected to a given network.
 - **Port Scanning:** Scan open ports on discovered devices.
 - **Service Detection:** Identify services running on the open ports.
-- **Vulnerability Detection:** Identify known vulnerabilities based on detected services.
 - **Reporting:** Generate a summary report of the scanned network.
 
 ## Technologies and Libraries Used 📚
@@ -61,7 +60,7 @@ python scan.py
 | ---------- | -------------------------------------------------- |
 | `--target` | The target IP address or subnet to scan.           |
 | `--ports`  | Specific ports to scan (default: common ports).    |
-| `--output` | Save the scan results to a file (PCAP/JSON format). |
+| `--output` | Save the scan results to a file (PCAP format). |
 
 ### Example Commands 📡🖥️
 
@@ -69,7 +68,8 @@ python scan.py
   ```bash
   python scan.py --target 192.168.1.100
   ```
-- Scan a subnet and save results to PCAP/JSON:
+  
+- Scan a subnet and save results to PCAP:
   ```bash
   --output result1.pcap
   ```
@@ -78,9 +78,8 @@ python scan.py
 
 1. **Device Discovery:** Uses ARP requests to detect active devices on the network. 🖥️📡🔍
 2. **Port Scanning:** Uses TCP SYN scans to identify open ports. 🔌🔎
-3. **Service Detection:** Uses Nmap integration to identify running services. 🔍📡
-4. **Vulnerability Detection:** Cross-references detected services with a known vulnerability database. 🔥
-5. **Report Generation:** Outputs findings in a structured format. 📜📂
+3. **Service Detection:** Uses Nmap integration to identify running services. 🔍📡 
+4. **Report Generation:** Outputs in a structured format. 📂
 
 ## Disclaimer ⚠️
 
