@@ -1,4 +1,3 @@
-![Alt text]("D:\PPT work\Ns.png")
 # Network Scanner Tool (1.0.0)💻
 
 ## Overview 🛡️
