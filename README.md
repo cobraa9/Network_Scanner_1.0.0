@@ -2,7 +2,7 @@
 
 ## Overview 🛡️
 
-The **Network Scanner Tool** is a Python-based cybersecurity tool designed to scan networks, detect open ports, identify running services, and assess potential vulnerabilities. This tool is ideal for cybersecurity researchers, and network security students who want to analyze their networks. 
+The **Network Scanner** is a Python-based cybersecurity tool designed to scan networks and assess potential vulnerabilities. This tool is  good for beginners, and network security students who want to analyze their networks. 
 
 # Features 🎯
 
@@ -51,7 +51,7 @@ Run the tool with the following command and enter your target ip for scan:
 
 ```bash
 python scan.py 
--- target 192.168.1.0/24 
+ 192.168.1.0/24 
 ```
 
 ### Command-Line Arguments 🖥️
