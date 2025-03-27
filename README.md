@@ -22,7 +22,7 @@ The **Network Scanner** is a Python-based cybersecurity tool designed to scan ne
 - **pcap/json:** For structured reporting.
 - **pcapviewer** To analyze the network PCAP/PCAPNG (Packet Capture) files. LINK --> https://marketplace.visualstudio.com/items?itemName=sankooc.pcapviewer
 
-## Installation ⚙️📥📌
+## Installation 📌
 
 ### Prerequisites ✅📦
 
@@ -45,7 +45,7 @@ cd Network_Scanner_Tool
 pip install scapy python-nmap argparse
 ```
 
-## Usage 🖥️
+## Usage 
 
 Run the tool with the following command and enter your target ip for scan:
 
@@ -54,7 +54,7 @@ python scan.py
  192.168.1.0/24 
 ```
 
-### Command-Line Arguments 🖥️
+### Command-Line Arguments 
 
 | Argument   | Description                                        |
 | ---------- | -------------------------------------------------- |
@@ -83,7 +83,7 @@ python scan.py
 
 ## Disclaimer ⚠️
 
-This tool is intended for **educational and ethical** purposes only. While port scanning itself isn't always illegal,but unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. 🚨❌⚖️
+This tool is intended for **educational and ethical** purposes only. While port scanning itself isn't always illegal,but unauthorized scanning of networks that you do not own or have permission to scan is illegal and punishable by law. ❌⚖️
 
 ## Contribution 🔧🤝
 This is my first project as a complete beginner in penetration Testing, and i know that this tiny project needs a lot of improvemnets.
